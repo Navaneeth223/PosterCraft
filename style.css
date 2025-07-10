@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light {
+  background: #fff;
+  color: #000;
+}
+
+body.dark {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+.toolbar {
+  padding: 1em;
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+canvas {
+  display: block;
+  margin: 1em auto;
+  border: 2px solid #ccc;
+}
